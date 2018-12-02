@@ -19,6 +19,6 @@
     "tests"
   ],
   "dependencies": {
-    "ado-save-config-btn": "^1.0.3"
+    "angular-markdown-directive": "^0.3.1"
   }
 }
