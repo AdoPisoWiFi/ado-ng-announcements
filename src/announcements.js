@@ -14,7 +14,7 @@
 
       var provider = {};
       var globalConfig = {
-        announcements_url = "/announcements";
+        announcements_url: "/announcements"
       };
 
       provider.config = function (config) {
