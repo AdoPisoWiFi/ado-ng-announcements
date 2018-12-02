@@ -35,7 +35,7 @@
       '$http',
       function AdoAnnouncementsCtrl(adoAnnouncementsConfig, $http) {
 
-        $ctrl = this;
+        var $ctrl = this;
 
         $ctrl.$onInit = function () {
 

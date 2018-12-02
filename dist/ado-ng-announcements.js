@@ -36,7 +36,7 @@ angular.module('ado.announcements.tpls', []).run(['$templateCache', function($te
       '$http',
       function AdoAnnouncementsCtrl(adoAnnouncementsConfig, $http) {
 
-        $ctrl = this;
+        var $ctrl = this;
 
         $ctrl.$onInit = function () {
 
