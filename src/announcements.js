@@ -6,7 +6,7 @@
       'btford.markdown',
       'ado.announcements.tpls'
     ])
-    .component('announcements', {
+    .component('adoAnnouncements', {
       controller: 'AdoAnnouncementsCtrl',
       templateUrl: './announcements.html'
     })
