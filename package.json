@@ -1,6 +1,6 @@
 {
   "name": "@adopisowifi/ng-announcements",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Angular.js 1.x module for changing bandwidth limiter settings",
   "main": "dist/ado-ng-announcements.js",
   "scripts": {
