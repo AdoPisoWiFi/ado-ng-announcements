@@ -1,0 +1,25 @@
+<div>
+  <button ladda="$ctrl.checking" type="button" class="btn btn-info" ng-click="$ctrl.reloadNews()">
+    <i class="glyphicon glyphicon-repeat"></i>
+    Check News
+  </button>
+  <hr>
+
+  <p ng-if="$ctrl.checking">
+  <i>
+    Loading news...
+  </i>
+  </p>
+
+  <div ng-repeat="a in $ctrl.announcements" ng-class="{'text-danger' : a.klass == 'alert', 'text-info': a.klass == 'info', 'text-warning': a.klass == 'warning', 'text-success': a.klass == 'success'}">
+    <hr ng-if="$index > 0">
+    <p>
+      <small>
+      <i>
+      {{a.created_at | date:'medium'}}
+      </i>
+      </small>
+    </p>
+    <div btf-markdown="a.message"></div>
+  </div>
+</div>
