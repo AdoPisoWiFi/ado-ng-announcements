@@ -7,7 +7,7 @@ angular.module('ado.announcements.tpls', []).run(['$templateCache', function($te
       'btford.markdown',
       'ado.announcements.tpls'
     ])
-    .component('announcements', {
+    .component('adoAnnouncements', {
       controller: 'AdoAnnouncementsCtrl',
       templateUrl: './announcements.html'
     })
@@ -15,7 +15,7 @@ angular.module('ado.announcements.tpls', []).run(['$templateCache', function($te
 
       var provider = {};
       var globalConfig = {
-        announcements_url = "/announcements";
+        announcements_url: "/announcements"
       };
 
       provider.config = function (config) {
